@@ -24,11 +24,11 @@ const apikey = "305ed99d42965d6c3750b76aa04a84de";
 
             const weatherMain = data.weather[0].main;
 
-            if (weatherMain === "Clouds") weatherIcon.src = "images/clouds.png";
-            else if (weatherMain === "Clear") weatherIcon.src = "images/clear.png";
-            else if (weatherMain === "Rain") weatherIcon.src = "images/rain.png";
-            else if (weatherMain === "Drizzle") weatherIcon.src = "images/drizzle.png";
-            else if (weatherMain === "Mist") weatherIcon.src = "images/mist.png";
+            if (weatherMain === "Clouds") weatherIcon.src = "clouds.png";
+            else if (weatherMain === "Clear") weatherIcon.src = "clear.png";
+            else if (weatherMain === "Rain") weatherIcon.src = "rain.png";
+            else if (weatherMain === "Drizzle") weatherIcon.src = "drizzle.png";
+            else if (weatherMain === "Mist") weatherIcon.src = "mist.png";
 
             if (weatherMain === "Clouds") body.style.background = "url('clouds.jpg') no-repeat center center fixed";
             else if (weatherMain === "Clear") body.style.background = "url('clear.jpg') no-repeat center center fixed";
